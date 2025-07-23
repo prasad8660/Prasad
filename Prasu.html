@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+The First name is: <b><lable id="name"></lable></b><br>
+The Phone number is: <b><lable id="phone"></lable></b><br>
+The Email is: <b><lable id="email"></lable></b><br>
+The Password is: <b><lable id="password"></lable></b><br>
+The Gender is: <b><lable id="gender"></lable></b>
+<script>
+var x = localStorage.getItem("name");
+document.getElementById("name").innerHTML=x;
+var x = localStorage.getItem("phone");
+document.getElementById("phone").innerHTML=x;
+var x = localStorage.getItem("email");
+document.getElementById("email").innerHTML=x;
+var x = localStorage.getItem("password");
+document.getElementById("password").innerHTML=x;
+var x = localStorage.getItem("gender");
+document.getElementById("gender").innerHTML=x;
+</script>
+</body>
+</html>
